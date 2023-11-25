@@ -8,6 +8,10 @@ export interface User {
   firstName: string;
   lastName: string;
   userName: string;
+  email: string;
   role: Role;
-  jwtToken?: string;
+  accessToken?: string;
+  //refreshToken: string;
+  refreshToken: string;
+  update_date: Date;
 }
